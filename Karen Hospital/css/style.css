@@ -1,0 +1,97 @@
+
+        body{
+            background-color: aqua;
+            font-family: Inter;
+            margin: 0;
+            padding: 0;
+        }
+        nav{
+            background-color: lightslategray;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        nav ul{
+            display: flex;
+            list-style-type: none;
+
+        }
+        nav ul li{
+            margin: 0 20px ;
+        }
+        nav ul li a{
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: bold;
+            color: darkred;
+        }
+        nav ul li a:hover{
+            background-color: azure;
+            color: sienna;
+            padding: 10px 20px;
+            border-radius: 50px;
+        }
+        /*div{*/
+        /*    background-color: chartreuse;*/
+        /*    height: 200px;*/
+        /*}*/
+        .one{
+            background-color: blanchedalmond;
+            height: 50px   ;
+        }
+        .two{
+            background-color: dimgrey;
+            height: 100px;
+        }
+        .three{
+            background-color: purple;
+            height: 100px;
+        }
+        #four{
+            background-color: violet;
+            height: 100px;
+            color: dodgerblue;
+        }
+        #five{
+            background-color: orangered;
+            height: 120px;
+            color: mintcream;
+        }
+        .background-image{
+            background-image: url("https://cdn.pixabay.com/photo/2024/03/26/11/57/doctor-8656663_960_720.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 500px;
+            border-radius: 20px;
+            margin 20px
+        }
+ .content{
+            text-align: center;
+            background-image: url("https://cdn.pixabay.com/photo/2015/05/15/05/31/night-view-767852_960_720.jpg");
+            background-position: center;
+            border-radius: 20px;
+            margin: 20px;
+            background-color: lightslategray;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            list-style-type: inside;
+height: 750px;
+        }
+ .image-one img{
+     height: 50vh;
+     width: 800px;
+     margin: 20px;
+     border-radius: 20px;
+     align-items: center;
+
+
+ }
+
+
+
+
